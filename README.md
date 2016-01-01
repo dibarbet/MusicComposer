@@ -34,12 +34,10 @@ constructed with the pitch as the root note.  With the average, the pitch select
 is used to attempt a reconstruction of a chord with that note as the average pitch.
 This works O.k. for equi-tempered, but the just version needs work.
 
-   -----------------------------------------------------
    | Colors         | Root is chord | Avg is chord |
-   -----------------------------------------------------	
+   |:--------------:|:-------------:|:------------:|	
    | Equi-tempered  | NO ARC COLOR  | BLUE         |
    | Just tuning    | GREEN         | RED          |
-   -----------------------------------------------------
 
 
 
