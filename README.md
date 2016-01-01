@@ -1,9 +1,9 @@
 # MusicComposer
 4803 Final Project- A music composer for processing using circles.
 
-########
-OVERVIEW
-########
+
+## OVERVIEW
+
 
 This system has four 'instruments' for each octave.  They can be switched between
 using the controls in the next section.  Each instrument has a number in the middle
@@ -42,11 +42,11 @@ This works O.k. for equi-tempered, but the just version needs work.
    -----------------------------------------------------
 
 
-########
-CONTROLS
-########
 
-VIEW
+## CONTROLS
+
+
+### VIEW
 	Switch between instruments/circles: 1 2 3 4
 	Go up an octave: Arrow key up
 	Go down an octave: Arrow key down
@@ -54,7 +54,7 @@ VIEW
 	Decrement zoom: -
 	Toggle zooming: Mouse right click
 
-SNAP
+### SNAP
 	Snap next notes to semi-tone level: n
 	Snap all notes to semi-tone level (cannot be undone): N
 	Increment semitone round level (power of 10s): ]
@@ -66,7 +66,7 @@ SNAP
 	Snap all note end times to nearest interval: i
 	#   Note to change the times, change the Intervals[] array
 
-CHORDS
+### CHORDS
 	Create next notes as chord: c
 	Convert all notes to chords (cannot be undone): C
 	Create next notes as just chords: j
@@ -81,22 +81,22 @@ CHORDS
 	Segmented Fourth: S
 	#   End types
 
-PLAY
+### PLAY
 	Play all instruments + octaves: p
 	Stop playback: q
 	#   You must stop and restart playback to hear new notes.
 	#   You must stop playing back before hitting play again.
 
-CLEAR
+### CLEAR
 	Clear last placed: z
 	Clear all on current instrument: e
 	Exit application: Q
 
 
-####
-TODO
-####
+## TODO
+
 
 Display
 Save/load from file
 Interactive drag/drop onto bars
+Fix visualiztion
